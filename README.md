@@ -4,7 +4,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **601 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
+A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **602 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
 
 ## Contents
 
@@ -244,6 +244,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 - [RailWarden](https://github.com/advaith-1212/railwarden) - Deterministic execution and integration control plane for multi-agent development with dependency-aware work packages, isolated Git worktrees, validation evidence, and mechanical integration gates.
 - [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY with a colour-coded status, tmux-backed persistence, and a git worktree per cell. For Claude Code, needs-you is shown separately from done, read from the CLI's own hooks.
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs Claude Code, Codex, OpenCode, Gemini CLI, and other coding-agent CLIs side by side in persistent tmux sessions, with live status, diff review, and a built-in MCP server that lets one agent spawn, message, and wait on another session. Built with Go + Bubble Tea, Apache-2.0.
+- [pohunek](https://github.com/zajca/pohunek) - Per-machine Rust daemon that keeps Codex, Claude Code, and Hermes Agent sessions alive across disconnects, each in its own git worktree, shows whether each is working, blocked, or idle, and has a JSON CLI so agents can drive other sessions. Works across machines over NetBird or Tailscale. MIT.
 
 ## Code Generation & Automation
 
